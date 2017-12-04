@@ -1,28 +1,35 @@
-# GOLang projects
+# Zabbix Proxy Balnacers
 
-Little projects in Golang that don't really need a repo for their own
+Project to balnace the zabbix proxy subscription the the porxies with less load on it
 
 ## Getting Started
 
- - Emailing : Send email and check mailbox. (graphite submissions TODO)
+ - Change the configs and run it with NGINX to cache if you thisk it is better.
+ - Using PUppet/Chef/Ansible to subscribe to the best proxy.
 
 ### Prerequisites
 
+ - Python (Most of it written with standart libraries)
 
 ### Installing
 
 ```
-TO DO
+ - Git clone
+ - Run with the deamonizer you feel more comfortable with 
 ```
 
 ## Built With
 
-golang ? maybe docker in the future
+ Python 2.7 .
 
+## To Do
+ - Improve config file
+ - Maybe create a internals on zabbix for that ?
+ - Not tested ont zabbix 3
 
 ## Authors
 
-* **Giordano Fechio** - *Initial work* - Test Orchetrator
+* **Giordano Fechio**
 
 ## License
 
